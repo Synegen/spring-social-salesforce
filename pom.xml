@@ -81,5 +81,17 @@
              <snapshots><enabled>false</enabled></snapshots>
          </repository>
     </repositories>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>Internal Releases</name>
+            <url>http://developers.synegen.com/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>central</id>
+            <name>Internal Snapshots</name>
+            <url>http://developers.synegen.com/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
